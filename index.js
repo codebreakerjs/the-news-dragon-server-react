@@ -7,6 +7,7 @@ const port = process.env.PORT || 5000;
 const categories = require('./data/categories.json');
 const news = require('./data/news.json');
 
+// another plateform to use data
 app.use(cors())
 
 app.get('/', (req, res)=>{
